@@ -5,6 +5,7 @@ This repo has some Arduino examples.
 ### Links to designs
 
 - [Push button](https://www.tinkercad.com/things/b6U6aTtOpR8)
+- [Temperature sensor](https://www.tinkercad.com/things/5e2y0KmxKh2)
 
 ### Visual Code Plugin Config
 
