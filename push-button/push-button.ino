@@ -1,6 +1,5 @@
 // This code turns on/off a led by pressing a button
 
-
 const uint8_t BUTTON_PIN = 2;
 const uint8_t LED_PIN = 12;
 
