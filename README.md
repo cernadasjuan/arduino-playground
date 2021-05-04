@@ -11,7 +11,7 @@ This repo has some Arduino examples.
 - Install [C++ Visual Code Plugin](https://github.com/microsoft/vscode-cpptools)
 - Install [Arduino IDE](https://www.arduino.cc/en/software)
 - Install [Visual Code Arduino Plugin](https://github.com/microsoft/vscode-arduino)
-- At the project root, create the file `.vscode/c_pp_properties` with the following content:
+- At the project root, create the file `.vscode/c_pp_properties.json` with the following content:
 
 ```json
 {
