@@ -7,8 +7,6 @@
 const uint8_t BUTTON_PIN = 2;
 const uint8_t LED_PIN = 12;
 
-int buttonState;
-
 void initLed(uint8_t ledPin) {
   pinMode(ledPin, OUTPUT);
   digitalWrite(ledPin, LOW);
@@ -32,7 +30,7 @@ void setup() {
  * This code runs forever after setup
  **/
 void loop() {
-  buttonState = digitalRead(BUTTON_PIN);
+  int buttonState = digitalRead(BUTTON_PIN);
   if (buttonState == HIGH) {
     digitalWrite(LED_PIN, HIGH);
   } else {
