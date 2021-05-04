@@ -41,3 +41,15 @@ This repo has some Arduino examples.
 ```
 
 (This is the MacOS version, Windows and Linux versions may have different values, see this [issue](https://github.com/microsoft/vscode-arduino/issues/438)).
+
+To switch between sketches, modify the `.vscode/arduino.json` file.
+
+In this example, you need to change the `sketch` property.
+
+```json
+{
+    "board": "arduino:avr:uno",
+    "programmer": "avrisp",
+    "sketch": "push-button/push-button.ino"
+}
+```
