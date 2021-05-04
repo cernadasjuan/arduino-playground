@@ -7,11 +7,6 @@
 const uint8_t BUTTON_PIN = 2;
 const uint8_t LED_PIN = 12;
 
-void initLed(uint8_t ledPin) {
-  pinMode(ledPin, OUTPUT);
-  digitalWrite(ledPin, LOW);
-}
-
 /**
  * This code runs once
  **/
@@ -20,10 +15,10 @@ void setup() {
   pinMode(BUTTON_PIN, INPUT);
 
   // Init LED on Pin 12
-  initLed(LED_PIN);
+  pinMode(LED_PIN, OUTPUT);
 
   // Disable built in LED
-  initLed(LED_BUILTIN);
+  digitalWrite(LED_BUILTIN, LOW);
 }
 
 /**
