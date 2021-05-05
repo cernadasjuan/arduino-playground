@@ -6,6 +6,7 @@ This repo has some Arduino examples.
 
 - [Push button](https://www.tinkercad.com/things/b6U6aTtOpR8)
 - [Temperature sensor](https://www.tinkercad.com/things/5e2y0KmxKh2)
+- [7 segment display](https://www.tinkercad.com/things/9SCXFf3YZyQ)
 
 ### Visual Code Plugin Config
 
